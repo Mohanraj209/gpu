@@ -39,18 +39,4 @@ when it comes to running applications that need heavy computational power, like 
 
 6. Schedule GPU Workloads:
    schedule GPU-accelerated workloads by specifying the GPU resource requirements in your pod specifications.
-   `apiVersion: v1
-    kind: Pod
-    metadata:
-      name: gpu-pod
-    spec:
-      containers:
-      - name: gpu-container
-        image: nvidia/cuda:10.0-base
-        resources:
-          limits:
-            nvidia.com/gpu: 1 # requesting 1 GPU
-        command: ["nvidia-smi"]
-      nodeSelector:
-        accelerator: nvidia`
               
