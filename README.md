@@ -1,5 +1,4 @@
-# gpu
-Repository related to graphics processing unit
+# gpu - graphics processing unit
 
 Kubernetes GPU support simplifies the process of running and managing applications that need the extra power of GPUs, making it easier to deploy and scale these applications efficiently.
 
