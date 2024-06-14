@@ -11,6 +11,10 @@ when it comes to running applications that need heavy computational power, like 
 
 * Scheduling: Kubernetes decides where your application should run. With GPU support, it can ensure that applications needing GPUs are scheduled on nodes (computers in the cluster) that have GPUs available.
 
+
+### Configuring GPUs in an existing Kubernetes cluster involves several steps to ensure your nodes can schedule and run GPU-accelerated workloads. Here's a detailed guide on how to achieve this:
+
+ 
 * Isolation and Sharing: Kubernetes can ensure that multiple applications can share GPUs without interfering with each other. It manages the allocation so that each application gets the GPU resources it needs without hogging all the resources.
 
 * Ease of Use: By using Kubernetes with GPU support, developers don’t have to worry about the nitty-gritty details of managing GPUs. Kubernetes handles this, making it easier to build and deploy GPU-intensive applications.
