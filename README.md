@@ -1,5 +1,6 @@
 # gpu - graphics processing unit
 
+
 Kubernetes GPU support simplifies the process of running and managing applications that need the extra power of GPUs, making it easier to deploy and scale these applications efficiently.
 
 when it comes to running applications that need heavy computational power, like machine learning or scientific simulations, you might need GPUs (Graphics Processing Units). GPUs are much faster than CPUs (Central Processing Units) for these tasks.
